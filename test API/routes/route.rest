@@ -1,0 +1,38 @@
+GET  http://localhost:3000/subscribers
+
+###
+
+GET  http://localhost:3000/subscribers/618d30e816c6b170696fc155
+
+###
+
+DELETE http://localhost:3000/subscribers/618d2659558807642be0d66d
+
+###
+
+
+POST http://localhost:8080/ControlloAmbientale/user/register/
+Content-Type: application/json
+
+{
+    "username" : "Gianni",
+    "email": "ciao@gmial.com",
+    "password": "Adminspadea01!"
+} 
+
+###
+POST http://localhost:8080/ControlloAmbientale/data/post
+Content-Type: application/json
+
+{
+    "humidity": "100",
+    "sound":"100",
+    "brightness":"100",
+    "temperature":"100",
+    "c02":"100",
+    "name":"fish1"
+}
+
+### 
+Delete http://localhost:8080/ControlloAmbientale/data/6229d546662ee3e87c92b4d7
+
